@@ -1,0 +1,8 @@
+google-generativeai
+fastapi
+uvicorn[standard]
+chromadb
+pyyaml
+duckduckgo-search
+sentence-transformers
+python-multipart
