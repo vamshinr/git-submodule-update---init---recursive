@@ -1,0 +1,16 @@
+# -----------------------------------------------------------------------------
+# Project SAGE Configuration
+# -----------------------------------------------------------------------------
+
+# Get your free API key from: https://makersuite.google.com/app/apikey
+gemini_api_key: "PASTE_YOUR_GEMINI_API_KEY_HERE"
+
+# Model to be used by the agent
+model_name: "gemini-1.5-flash"
+
+# Configuration for the agent's memory
+memory:
+  # Directory to store the persistent vector database
+  database_directory: "./sage_memory_db"
+  # Name of the collection within the database
+  collection_name: "sage_experiences"
